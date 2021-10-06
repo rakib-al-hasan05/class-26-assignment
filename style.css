@@ -1,0 +1,168 @@
+body, h1, h2, h3, h4, h5, h6, p, a, span, strong{
+    font-family: 'Spartan', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/* Start Templete */
+.first-section .about h6 {
+	color: #6391ef;
+	margin-bottom: 20px;
+}
+.first-section .about h2 {
+	font-size: 45px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	position: relative;
+}
+.first-section .about h2::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 62px;
+	height: 3px;
+	background-color: #4a72ec;
+}
+.first-section .about p{
+	color: #9c96a7;
+	font-size: 19px;
+	font-weight: 500;
+    margin-top: 20px;
+}
+.logo {
+	border: 1px solid #ddd;
+	align-items: center;
+	height: 165px;
+	display: flex;
+	justify-content: center;
+	transition: .4s;
+}
+.logo:hover{
+	background-color: #f6f9fd;
+}
+.about-section{
+    padding: 70px 0;
+}
+.about-section .about {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+}
+.about-section .about h6 {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #4a72ec;
+	margin-bottom: 20px;
+}
+.about-section .about h2{
+    position: relative;
+    padding-bottom: 22px;
+    font-weight: 700;
+}
+.about-section .about h2::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 44%;
+	width: 62px;
+	height: 3px;
+	background-color: #4a72ec;
+}
+.about-section .about p {
+	color: #9c96a7;
+	font-size: 16px;
+	font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+/* About Card */
+
+.about-card h3 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.about-card-image img{
+   border-radius: 5px;
+}
+.about-card-author {
+	background-color: #4a72ec;
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+	padding: 8px;
+	width: 180px;
+	position: relative;
+	top: -73px;
+	right: -190px;
+}
+.about-card-author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.about-card-author h4 {
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+.footer-section{
+    padding-top: 60px;
+    background-color: #081828;
+    color: #fff;
+}
+.footer-top{
+    padding-bottom: 60px;
+    border-bottom: 2px solid #444;
+}
+.footer-card img{
+    width: 160px;
+}
+.footer-card p {
+	margin-top: 30px;
+	padding-right: 20px;
+    line-height: 34px;
+}
+.footer-social ul{
+    padding-left: 0;
+    display: flex;
+    margin-top: 50px;
+}
+.footer-card ul li a {
+	padding: 10px 20px;
+	font-size: 22px;
+	color: #fff;
+}
+.footer-card-about h4 {
+	border-left: 4px solid #3763eb;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.footer-card-about ul{
+    padding-left: 0;
+}
+.footer-card-about ul li{
+    line-height: 40px;
+}
+.footer-card-about ul li a {
+	color: #9095a3;
+	font-weight: 500;
+}
+.footer-bottom{
+    padding: 30px 0;
+    text-align: center;
+    font-weight: 500;
+}
